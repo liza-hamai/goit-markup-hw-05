@@ -541,17 +541,17 @@ a {
     height: 40px;
     border: 1px solid #ffffff;
     background-color: transparent;
-    /* font-size: 12px;
+    font-size: 12px;
     line-height: 2;
-    letter-spacing: 0.04em; */
+    letter-spacing: 0.04em;
     padding-left: 16px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    /* color: #ffffff; */
+    color: #ffffff;
 }
 
 .input-footer-form::placeholder {
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .button-footer-form {
@@ -565,6 +565,9 @@ a {
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .button-footer-form .icon {
