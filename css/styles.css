@@ -503,13 +503,17 @@ a {
     margin-right: 120px
 }
 
-.footer-social-media-name {
+.footer-paragraf-name {
     font-weight: 500;
     /* font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF; */
     margin-bottom: 16px;
+}
+
+.footer-social-media {
+    margin-right: 100px;
 }
 
 .footer-social-media-list {
@@ -525,4 +529,44 @@ a {
 .footer .social-media-link:hover, 
 .footer .social-media-link:focus {
     background-color: #31d0aa;
+}
+
+.footer-field-form {
+    display: flex;
+    gap: 24px;
+}
+
+.input-footer-form {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    /* font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em; */
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    /* color: #ffffff; */
+}
+
+.input-footer-form::placeholder {
+    color: #FFFFFF;
+}
+
+.button-footer-form {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+}
+
+.button-footer-form .icon {
+    margin-left: 16px;
 }
