@@ -576,22 +576,67 @@ a {
 }
 
 .user-information {
-    width: 360px;
+    width: 100%;
     height: 40px;
-    border: 1px solid #8E8F99 ;
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
+    background-color: transparent;
+    padding-left: 38px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.user-information.comment {
+.user-information:focus {
+    border-color: #4D5AE5;
+}
+
+.user-information-comment {
+    width: 100%;
     height: 120px;
+    color: rgba(46, 47, 66, 0.4);
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 8px 16px;
+    outline: transparent;
+    resize: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.user-information-comment:focus {
+    border-color: #4D5AE5;
+}
+
+.modal-form-terms {
+    margin-bottom: 24px;
 }
 
 .form-label {
     color: #8E8F99;
     font-size: 12px;
-    display: flex;
-    flex-direction: column;
-    transition: color 150ms ease-in-out;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    display: block;
+    margin-bottom: 4px;
+    /* flex-direction: column;
+    transition: color 150ms ease-in-out; */
+}
+
+.form-icon {
+    position: absolute;
+    fill: rgba(46, 47, 66, 1);
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-name-input-container:focus {
+    fill: #4D5AE5;
+}
+
+.form-name-input-container {
+    position: relative;
 }
 
 .form-label.radio {
