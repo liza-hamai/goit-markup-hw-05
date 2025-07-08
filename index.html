@@ -366,31 +366,35 @@
             <div class="modal">
                 <button type="button" class="close-button">
                     <svg width="8" height="8" class="icon-close">
-                        <use href="../images/icons.svg#icon-close"></use>
+                        <use href="./images/icons.svg#icon-close"></use>
                     </svg>
                 </button>
-                <p>Leave your contacts and we will call you back</p>
-                <label class="form-label">
-                    Name
-                    <input type="text" name="name" class="user-information">
-                </label>
-                <label class="form-label">
-                    Phone
-                    <input type="tel" name="telephone" class="user-information">
-                </label>
-                <label class="form-label">
-                    Email
-                    <input type="email" name="email" class="user-information">
-                    </label>
-                    <label class="form-label">
-                    Comment
-                    <textarea name="comment" class="user-information comment" placeholder="Text input"></textarea>
-                    </label>
-                    <label class="form-label radio">
-                    <input type="radio" name="terms" value="accept">
-                    </label>
-                    <p>I accept the terms and conditions of the <a href="">Privacy Policy</a></p>
-                    <button type="button" class="button">Send</button>
+                <p class="overlay-describtion">Leave your contacts and we will call you back</p>
+                <form>
+                    <div class="modal-form">
+                        <label class="form-label">
+                            Name
+                            <input type="text" name="name" class="user-information">
+                        </label>
+                        <label class="form-label">
+                            Phone
+                            <input type="tel" name="telephone" class="user-information">
+                        </label>
+                        <label class="form-label">
+                            Email
+                            <input type="email" name="email" class="user-information">
+                        </label>
+                        <label class="form-label">
+                            Comment
+                            <textarea name="comment" class="user-information comment" placeholder="Text input"></textarea>
+                        </label>
+                        <label class="form-label radio">
+                            <input type="radio" name="terms" value="accept">
+                        </label>
+                        <p>I accept the terms and conditions of the <a href="">Privacy Policy</a></p>
+                        <button type="button" class="button">Send</button>
+                    </div>
+                </form>
             </div>
         </div>
 </body>
