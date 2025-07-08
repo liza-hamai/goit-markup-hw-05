@@ -593,6 +593,9 @@ a {
 .user-information-comment {
     width: 100%;
     height: 120px;
+    font-size: 12px;
+    line-height: 1.17; 
+    letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
@@ -607,7 +610,11 @@ a {
     border-color: #4D5AE5;
 }
 
-.modal-form-terms {
+.modal-form.comment {
+    margin-bottom: 16px;
+}
+
+.modal-form.terms {
     margin-bottom: 24px;
 }
 
