@@ -689,6 +689,7 @@ a {
 input[type="checkbox"]:checked + label .check-mark {
     background-color: #404bbf;
     fill: #F4F4FD;
+    border: none;
 }
 
 .check-mark::before {
